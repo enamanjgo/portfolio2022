@@ -1,3 +1,47 @@
 .about {
   background: #afc1ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  .imgcontainer {
+    overflow: hidden;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      border-radius: 50%;
+      justify-content: center;
+
+      border: 5px solid rgba(253, 249, 249, 0.734);
+      -webkit-background-clip: padding-box; /* for Safari */
+      background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    }
+  }
+
+  .textcontainer {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding-top: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(97, 104, 175);
+    border-radius: 8%;
+    width: 600px;
+    height: 450px;
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      margin-left: 8%;
+      margin-right: 8%;
+      text-align: justify;
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+  }
 }

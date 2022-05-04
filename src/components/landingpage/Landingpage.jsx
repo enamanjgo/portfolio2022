@@ -28,8 +28,11 @@ export default function Landingpage() {
           See my work
           <br />
         </h3>
-
-        <img id="arrowdown" src="https://i.imgur.com/HP46F4W.png" title="" />
+        <a href="#projects">
+          <div className="wrapper">
+            <img src="https://i.imgur.com/HP46F4W.png" alt="" />
+          </div>
+        </a>
       </div>
     </div>
   );
