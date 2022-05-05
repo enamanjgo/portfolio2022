@@ -17,10 +17,9 @@ export default function Landingpage() {
         <h2>Hey there. I'm Ena.</h2>
         <h4>
           {' '}
-          <br /> <br /> I'm an engineering student with a passion for designing
-          and managing products
+          <br /> I'm an engineering student with a passion for designing
           <br />
-          that make an impact.
+          and managing products that make an impact.
         </h4>
         <h4></h4>
         <h3>

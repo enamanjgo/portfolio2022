@@ -6,30 +6,27 @@ export default function Projects() {
       <div className="container">
         <div className="item">
           <img src="https://i.imgur.com/RtwD9k9.jpg" alt="" />
-          <h3>Banking app</h3>
+          <h3>The Weather Network</h3>
         </div>
         <div className="item">
           <img src="https://i.imgur.com/RtwD9k9.jpg" alt="" />
-          <h3>Banking app</h3>
+          <h3>Bombardier</h3>
         </div>
         <div className="item">
           <img src="https://i.imgur.com/RtwD9k9.jpg" alt="" />
-          <h3>Banking app</h3>
+          <h3>Tunely</h3>
         </div>
-
         <div className="item">
           <img src="https://i.imgur.com/RtwD9k9.jpg" alt="" />
-          <h3>Banking app</h3>
+          <h3>Tunely</h3>
         </div>
-
         <div className="item">
           <img src="https://i.imgur.com/RtwD9k9.jpg" alt="" />
-          <h3>Banking app</h3>
+          <h3>Tunely</h3>
         </div>
-
         <div className="item">
           <img src="https://i.imgur.com/RtwD9k9.jpg" alt="" />
-          <h3>Banking app</h3>
+          <h3>Tunely</h3>
         </div>
       </div>
     </div>

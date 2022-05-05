@@ -11,7 +11,7 @@ export default function About() {
       <br />
 
       <div className="textcontainer">
-        <h3>About me </h3>
+        <h3> Nice to meet you! </h3>
         <br />
 
         <p>
@@ -33,9 +33,19 @@ export default function About() {
           music, and memes.
         </p>
         <br />
-
-        <br />
         <p>I’d love to chat about internship opportunities!</p>
+        <br />
+        <p id="icons">
+          <a href="https://www.linkedin.com/in/ena-manjgo/" target="blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:emanjgo@uwaterloo.ca" target="blank">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://github.com/enamanjgo" target="blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </p>
       </div>
     </div>
   );

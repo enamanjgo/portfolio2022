@@ -1,5 +1,6 @@
 .landingpage {
   background: #afc1ef;
+  color: #1f136c;
   .imgContainer {
     display: flex;
     justify-content: center;
@@ -40,6 +41,19 @@
   align-items: center;
   justify-content: center;
   top: 52%;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  h2 {
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
 
   img {
     z-index: 60;

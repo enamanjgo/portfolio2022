@@ -1,3 +1,4 @@
+import { margin } from '@mui/system';
 import './navbar.scss';
 
 export default function Navbar() {
@@ -6,15 +7,25 @@ export default function Navbar() {
       <div className="wrapper">
         <div className="left">
           <a href="#landingpage" className="logo">
-            <h2>EM</h2>
+            EM
           </a>
-          <h4>EN</h4>
-          <h4>FR</h4>
         </div>
+
         <div className="right">
           <div className="pages">
+            <div className="darkModeToggle">
+              <body>
+                <input type="checkbox" id="switch-button" />
+                <label htmlFor="switch-button">
+                  <i class="fas fa-sun"></i>
+                  <i class="fas fa-moon"></i>
+                </label>
+
+                <div className="content"></div>
+              </body>
+            </div>
             <a href="" className="pagelink">
-              <h4>Resume</h4>
+              Resume
             </a>
             <a href="#projects" className="pagelink">
               Projects
