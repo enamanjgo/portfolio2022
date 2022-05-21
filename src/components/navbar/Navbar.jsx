@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="navbar">
       <div className="wrapper">
         <div className="left">
-          <a href="#landingpage" className="logo">
+          <a href="/" className="logo">
             EM
           </a>
         </div>
@@ -27,13 +27,13 @@ export default function Navbar() {
             <a href="" className="pagelink">
               Resume
             </a>
-            <a href="#projects" className="pagelink">
+            <a href="/projects" className="pagelink">
               Projects
             </a>
-            <a href="#about" className="pagelink">
+            <a href="/about" className="pagelink">
               About
             </a>
-            <a href="#art" className="pagelink">
+            <a href="/art" className="pagelink">
               Art
             </a>
           </div>

@@ -3,16 +3,7 @@ import './landingpage.scss';
 export default function Landingpage() {
   return (
     <div className="landingpage" id="landingpage">
-      <div className="imgContainer">
-        <img id="layer4" src="https://i.imgur.com/ZXusky5.png" title="" />
-
-        <img id="layer3" src="https://i.imgur.com/41WRN1E.png" title="" />
-
-        <img id="layer2" src="https://i.imgur.com/H8DMG2w.png" title="" />
-
-        <img id="layer1" src="https://i.imgur.com/cN0CgLv.png" title="" />
-      </div>
-
+      {' '}
       <div className="welcome">
         <h2>Hey there. I'm Ena.</h2>
         <h4>

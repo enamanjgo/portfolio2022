@@ -1,46 +1,20 @@
 .landingpage {
   background: #afc1ef;
   color: #1f136c;
-  .imgContainer {
-    display: flex;
-    justify-content: center;
 
-    img {
-      position: absolute;
-      top: 35%;
-      left: 50%;
-      width: 800px;
-      height: 600px;
-      margin-top: -250px; /* Half the height */
-      margin-left: -400px; /* Half the width */
-    }
-  }
-}
-
-#layer1 {
-  z-index: 10;
-}
-#layer2 {
-  z-index: 20;
-}
-
-#layer3 {
-  z-index: 30;
-}
-
-#layer4 {
-  z-index: 40;
+  overflow: hidden;
 }
 
 .welcome {
-  text-align: center;
   position: relative;
+  overflow: hidden;
+  text-align: center;
   display: flex;
   flex-direction: column;
 
   align-items: center;
   justify-content: center;
-  top: 52%;
+  margin-top: 30%;
 
   h3 {
     font-weight: 400;

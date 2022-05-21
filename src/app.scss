@@ -4,28 +4,6 @@
   height: 100vh;
   background: #afc1ef;
 
-  .sections {
-    width: 100%;
-    height: calc(100vh - 80px);
-
-    position: relative;
-    top: 70px;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
-    > * {
-      width: 100vw;
-      height: calc(100vh - 80px);
-      scroll-snap-align: start;
-    }
+  .footer {
   }
-}
-
-//Change light theme to dark themenavbar
-#switch-button:checked ~ .app {
-  background-color: #1f136c;
-  color: antiquewhite;
 }
