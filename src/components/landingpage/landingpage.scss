@@ -1,54 +1,9 @@
 .landingpage {
-  background: #afc1ef;
-  color: #1f136c;
-
-  overflow: hidden;
-}
-
-.welcome {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: center;
-  margin-top: 30%;
-
-  h3 {
-    font-weight: 400;
+  h1 {
+    overflow: hidden;
   }
 
-  h2 {
-    font-weight: 400;
-  }
-
-  h4 {
-    font-size: 18px;
-    font-weight: 400;
-  }
-
-  img {
-    z-index: 60;
-    position: relative;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
-    height: 2%;
-    width: 2%;
-
-    animation: arrowBlink 1.5s infinite;
-  }
-
-  @keyframes arrowBlink {
-    100% {
-      opacity: 0;
-    }
+  #arrow {
+    width: 60px;
   }
 }

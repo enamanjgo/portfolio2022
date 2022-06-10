@@ -1,43 +1,43 @@
 .projects {
-  background: #afc1ef;
-  height: 100vh;
+  // background: #afc1ef;
+  // height: 100vh;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
 
-  .container {
-    position: relative;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  // .container {
+  //   position: relative;
+  //   width: 90%;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   flex-wrap: wrap;
 
-    .item {
-      position: relative;
-      width: 400px;
-      height: 300px;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+  //   .item {
+  //     position: relative;
+  //     width: 400px;
+  //     height: 300px;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     justify-content: center;
 
-      border-radius: 20px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      margin-left: 5px;
-      margin-right: 5px;
-      display: flex;
+  //     border-radius: 20px;
+  //     margin-top: 5px;
+  //     margin-bottom: 5px;
+  //     margin-left: 5px;
+  //     margin-right: 5px;
+  //     display: flex;
 
-      color: black;
-      box-shadow: 5px 5px 5px rgb(97, 104, 175);
+  //     color: black;
+  //     box-shadow: 5px 5px 5px rgb(97, 104, 175);
 
-      h3 {
-        position: absolute;
-      }
+  //     h3 {
+  //       position: absolute;
+  //     }
 
-      transition: all 1s ease;
-    }
-  }
+  //     transition: all 1s ease;
+  //   }
+  // }
 }

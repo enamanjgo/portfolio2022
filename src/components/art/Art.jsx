@@ -1,6 +1,11 @@
 import './art.scss';
 import React from 'react';
+import './art.scss';
 
-export default function Art() {
-  return <div className="art" id="art"></div>;
+import { Component } from 'react';
+
+export default class Art extends Component {
+  render() {
+    return <div></div>;
+  }
 }
