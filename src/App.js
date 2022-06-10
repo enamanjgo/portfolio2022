@@ -4,6 +4,7 @@ import Projects from './components/projects/Projects';
 import About from './components/about/About';
 import Art from './components/art/Art';
 import Home from './components/home/Home';
+import Footer from './components/Footer/Footer';
 import './app.scss';
 import Landingpage from './components/landingpage/Landingpage';
 import { Routes, Route } from 'react-router-dom';
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="app">
       <NavbarComp />
+      <Footer />
       <Routes>
         <Route path="/landingpage" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 export default class NavbarComp extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="/landingpage">
             EM
@@ -28,6 +28,12 @@ export default class NavbarComp extends Component {
                   Home
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Art">
+                  Resume
+                </a>
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="/About">
                   About
