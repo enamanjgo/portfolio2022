@@ -12,7 +12,7 @@ export default function About() {
           <div className="col"></div>
           <div className="col ">
             <img
-              class="img-responsive img-thumbnail"
+              class="img-responsive img-thumbnail shadow-lg"
               src="https://i.imgur.com/3fQ8PlM.jpg"
               alt=""
             />

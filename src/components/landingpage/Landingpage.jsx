@@ -22,10 +22,10 @@ export default class Landingpage extends Component {
                 />
               </div>
 
-              <h5 class=" overflow-hidden fw-light text-light">
+              <h5 id="title" class=" overflow-hidden fw-light text-light">
                 Product Manager & Designer
               </h5>
-              <h5 class=" overflow-hidden fw-light text-light">
+              <h5 class="  fw-light text-light">
                 UWaterloo Systems Design Engineering '25
               </h5>
               <br />
@@ -33,28 +33,39 @@ export default class Landingpage extends Component {
                 See my work{'    '}
               </h5>
               <a href="#projects">
-                <i class="fa-solid fa-angles-down text-center text-light "></i>
+                <i
+                  id="arrowdown"
+                  class="fa-solid fa-chevron-down  text-center text-light "
+                ></i>
               </a>
             </div>
           </div>
         </section>
 
-        <section id="projects" class=" m-5 p-5">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
+        <section id="projects" class=" m-5 p-2">
+          <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
+            <div id="project1" class="col">
               <div class="card border-0">
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                  class="card-img-top"
+                  id="cover1"
+                  class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
                   alt="Hollywood Sign on The Hill"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
+                <div id="overlay1" className="overlay1">
+                  <div id="text1" className="text1">
+                    How can we make it easier to discover new music and share it
+                    with friends?
+                    <br />
+                    <br />
+                    <a
+                      id="projectname"
+                      href=""
+                      class="text-decoration-none fw-light text-light"
+                    >
+                      See Tunely <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -63,41 +74,19 @@ export default class Landingpage extends Component {
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
                   class="card-img-top"
+                  id="image1"
                   alt="Palm Springs Road"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
+
+                <div id="overlay1" className="overlay1">
+                  <div id="text1" className="text1">
+                    How can we make it easier to discover new music and share it
+                    with friends?
+                    <br />
+                    <br />
+                    <a href="">See Tunely</a>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card border-0">
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
-                  class="card-img-top"
-                  alt="Los Angeles Skyscrapers"
-                />
-                <div class="card-body">
-                  <h5 class="card-title overflow-hidden">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card border-0">
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
-                  class="card-img-top"
-                  alt="Skyscrapers"
-                />
               </div>
             </div>
           </div>

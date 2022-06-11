@@ -28,11 +28,6 @@ export default class NavbarComp extends Component {
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Art">
-                  Resume
-                </a>
-              </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="/About">
@@ -43,6 +38,12 @@ export default class NavbarComp extends Component {
               <li class="nav-item">
                 <a class="nav-link" href="/Art">
                   Art
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/Art">
+                  Resume
                 </a>
               </li>
             </ul>
