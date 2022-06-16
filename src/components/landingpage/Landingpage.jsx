@@ -12,7 +12,6 @@ export default class Landingpage extends Component {
             <div class="p-5  fw-light text-center">
               <br />
               <br />
-              <br />
               <h3 class=" overflow-hidden fw-light text-light">Hi, I'm </h3>
               <div className="row">
                 <img
@@ -43,7 +42,58 @@ export default class Landingpage extends Component {
         </section>
 
         <section id="projects" class=" m-5 p-2">
+          <br />
+          <br />
+          <br />
           <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
+            <div id="project1" class="col">
+              <div class="card border-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                  id="cover1"
+                  class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
+                  alt="Hollywood Sign on The Hill"
+                />
+                <div id="overlay1" className="overlay1">
+                  <div id="text1" className="text1">
+                    How can we make it easier to discover new music and share it
+                    with friends?
+                    <br />
+                    <br />
+                    <a
+                      id="projectname"
+                      href=""
+                      class="text-decoration-none fw-light text-light"
+                    >
+                      See Tunely <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+                  class="card-img-top"
+                  id="image1"
+                  alt="Palm Springs Road"
+                />
+
+                <div id="overlay1" className="overlay1">
+                  <div id="text1" className="text1">
+                    How can we make it easier to discover new music and share it
+                    with friends?
+                    <br />
+                    <br />
+                    <a href="">See Tunely</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row py-4 row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
             <div id="project1" class="col">
               <div class="card border-0">
                 <img

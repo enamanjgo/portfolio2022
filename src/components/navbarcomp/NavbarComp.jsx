@@ -7,8 +7,8 @@ export default class NavbarComp extends Component {
     return (
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            EM
+          <a id="logo" class="navbar-brand" href="/">
+            Ena Manjgo
           </a>
           <button
             class="navbar-toggler my-2"
