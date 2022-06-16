@@ -16,7 +16,7 @@ function App() {
       <NavbarComp />
       <Footer />
       <Routes>
-        <Route path="/landingpage" element={<Home />} />
+        <Route path="/" element={<Landingpage />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/art" element={<Art />} />
