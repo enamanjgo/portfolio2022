@@ -34,7 +34,7 @@ export default class Landingpage extends Component {
               <a href="#projects">
                 <i
                   id="arrowdown"
-                  class="fa-solid fa-chevron-down  text-center text-light "
+                  class=" fa-2x fa-solid fa-chevron-down fa-beat-fade --fa-animation-duration 2s text-center text-light "
                 ></i>
               </a>
             </div>
@@ -49,7 +49,7 @@ export default class Landingpage extends Component {
             <div id="project1" class="col">
               <div class="card border-0">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                  src="https://i.imgur.com/YO1N7WU.png"
                   id="cover1"
                   class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
                   alt="Hollywood Sign on The Hill"
@@ -62,10 +62,11 @@ export default class Landingpage extends Component {
                     <br />
                     <a
                       id="projectname"
-                      href=""
-                      class="text-decoration-none fw-light text-light"
+                      href="/tunely"
+                      class="text-decoration-none fw-light text-dark"
                     >
-                      See Tunely <i class="fa-solid fa-arrow-right"></i>
+                      See Tunely{' '}
+                      <i class="fa-solid fa-arrow-right text-dark"></i>
                     </a>
                   </div>
                 </div>

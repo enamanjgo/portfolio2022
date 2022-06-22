@@ -28,8 +28,13 @@ function App() {
         <div className="row  text-center ">
           <span class="">
             {' '}
-            <i class="fa-brands fa-linkedin  px-1"> </i>
-            <i class="fa-brands fa-github px-1"></i>
+            <a href="https://www.linkedin.com/in/ena-manjgo/" target="_blank">
+              {' '}
+              <i class="fa-brands fa-linkedin  px-1"> </i>
+            </a>
+            <a href="https://github.com/enamanjgo" target="_blank">
+              <i class="fa-brands fa-github px-1"></i>
+            </a>
             <i class="fa-solid fa-envelope px-1"></i>
             <i class="fa-brands fa-instagram px-1"></i>
           </span>
