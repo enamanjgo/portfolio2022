@@ -10,19 +10,23 @@ import './app.scss';
 import Landingpage from './components/landingpage/Landingpage';
 import { Routes, Route } from 'react-router-dom';
 import { Card, Button, Container, Row, Col, Image } from 'react-bootstrap';
+import FadeIn from 'react-fade-in';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function App() {
   return (
     <div className="app">
       <NavbarComp />
       <Footer />
-      <Routes>
-        <Route path="/" element={<Landingpage />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/art" element={<Art />} />
-        <Route path="/tunely" element={<Tunely />} />
-      </Routes>
+      <ScrollAnimation animateIn="fadeIn">
+        <Routes>
+          <Route path="/" element={<Landingpage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/art" element={<Art />} />
+          <Route path="/tunely" element={<Tunely />} />
+        </Routes>
+      </ScrollAnimation>
 
       <div className="container ">
         <div className="row  text-center ">

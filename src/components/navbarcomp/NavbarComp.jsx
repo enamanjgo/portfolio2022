@@ -7,7 +7,7 @@ export default class NavbarComp extends Component {
     return (
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a id="logo" class="navbar-brand" href="/">
+          <a id="logo" class="navbar-brand" href="/#projects">
             Ena Manjgo
           </a>
           <button

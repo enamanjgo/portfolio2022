@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 export default class Landingpage extends Component {
   render() {
     return (
-      <div class="container">
+      <div class="container overflow-hidden">
         <section id="intro">
           <div class="row">
             <div class="p-5  fw-light text-center">

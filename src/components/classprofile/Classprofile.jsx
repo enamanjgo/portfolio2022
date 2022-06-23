@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Tunely() {
+export default function Classprofile() {
   return (
     <div>
       <br />
