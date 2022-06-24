@@ -37,6 +37,12 @@ export default class NavbarComp extends Component {
 
               <li class="nav-item">
                 <a class="nav-link" href="/Art">
+                  Art
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/Art">
                   Resume
                 </a>
               </li>

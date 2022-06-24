@@ -15,13 +15,7 @@ export default function About() {
       <div className="container">
         <div className="row pb-4 ">
           <div className="col-md-5"></div>
-          <div className="col-md-2">
-            <img
-              class="img-responsive img-thumbnail border-0 shadow-lg"
-              src="https://i.imgur.com/3fQ8PlM.jpg"
-              alt=""
-            />
-          </div>
+          <div className="col-md-2"></div>
           <div className="col-md-5"></div>
         </div>
       </div>

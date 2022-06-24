@@ -7,164 +7,60 @@ import { Component } from 'react';
 export default function Art() {
   return (
     <div>
-      Art
-      <div class="container">
-        <div
-          class="row d-flex flex-wrap align-items-center"
-          data-toggle="modal"
-          data-target="#lightbox"
-        >
-          <div class="col-12 col-md-6 col-lg-3">
-            <img
-              src="https://source.unsplash.com/random/200"
-              data-target="#indicators"
-              data-slide-to="0"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <img
-              src="https://source.unsplash.com/random/201"
-              data-target="#indicators"
-              data-slide-to="1"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <img
-              src="https://source.unsplash.com/random/202"
-              data-target="#indicators"
-              data-slide-to="2"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <img
-              src="https://source.unsplash.com/random/203"
-              data-target="#indicators"
-              data-slide-to="3"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <img
-              src="https://source.unsplash.com/random/204"
-              data-target="#indicators"
-              data-slide-to="3"
-              alt=""
-            />
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <img
-              src="https://source.unsplash.com/random/205"
-              data-target="#indicators"
-              data-slide-to="4"
-              alt=""
-            />
-          </div>
+      <br />
+      <br />
+      <br />
+
+      <div class="container text-light fw-light">
+        <div className="row text-light fw-light">
+          <h5 class="text-light fw-light">
+            In my spare time, I enjoy making visual art. I've featured some of
+            my favourite pieces below.
+          </h5>
+          <p>Tools: Adobe Photoshop, Illustrator, Procreate</p>
         </div>
 
-        <div
-          class="modal fade"
-          id="lightbox"
-          role="dialog"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <button
-                type="button"
-                class="close text-right p-2"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <div id="indicators" class="carousel slide" data-interval="false">
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#indicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#indicators" data-slide-to="1"></li>
-                  <li data-target="#indicators" data-slide-to="2"></li>
-                  <li data-target="#indicators" data-slide-to="3"></li>
-                  <li data-target="#indicators" data-slide-to="4"></li>
-                  <li data-target="#indicators" data-slide-to="5"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      class="d-block w-100"
-                      src="https://source.unsplash.com/random/200"
-                      alt="First slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://source.unsplash.com/random/201"
-                      alt="Second slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://source.unsplash.com/random/202"
-                      alt="Third slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://source.unsplash.com/random/203"
-                      alt="Fourth slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://source.unsplash.com/random/204"
-                      alt="Fifth slide"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="d-block w-100"
-                      src="https://source.unsplash.com/random/205"
-                      alt="Sixth slide"
-                    />
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#indicators"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#indicators"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
+        <div class="row d-flex flex-wrap align-items-center">
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="https://i.imgur.com/5pDZtP2.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="https://i.imgur.com/Q3wTBWz.png" alt="" />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="https://i.imgur.com/56G6soI.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="https://i.imgur.com/yJV1Hj1.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="https://i.imgur.com/SAxKr0c.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="https://i.imgur.com/vaX6JZf.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="https://i.imgur.com/apVa0Ej.png" alt="" />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="https://i.imgur.com/7eS4STP.jpg" alt="" />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="https://i.imgur.com/V6lYg33.png" alt="" />
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="https://i.imgur.com/3PPg636.jpg" alt="" />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="https://i.imgur.com/9sHJEg8.jpg" alt="" />
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="https://i.imgur.com/eyGzTG6.jpg" alt="" />
           </div>
         </div>
       </div>
