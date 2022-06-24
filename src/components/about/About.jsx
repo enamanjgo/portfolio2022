@@ -9,14 +9,18 @@ export default function About() {
 
       <div className="row">
         {' '}
-        <h3 class="text-center text-light fw-light pb-3">About</h3>
+        <h3 class="text-center text-light fw-light overflow-hidden">About</h3>
       </div>
 
       <div className="container">
-        <div className="row pb-4 ">
-          <div className="col-md-5"></div>
-          <div className="col-md-2"></div>
-          <div className="col-md-5"></div>
+        <div class="row d-flex flex-wrap align-items-center justify-content-center ">
+          <div class="col-12 col-md-3 col-lg-3 px-3">
+            <img
+              class="rounded-circle float-left mx-auto shadow-lg"
+              src="https://i.imgur.com/3fQ8PlM.jpg "
+              alt=""
+            />
+          </div>
         </div>
       </div>
 
@@ -30,8 +34,8 @@ export default function About() {
         <div className="section">
           <div class="container">
             <div id="icons" class="row text-light">
-              <div class="col-md-3"></div>
-              <div class="col-md-6 bg-dark rounded pt-2">
+              <div class="col-md-2"></div>
+              <div class="col-md-8 bg-dark rounded pt-2">
                 {' '}
                 <p>
                   I’m in my 2nd year of Systems Design Engineering at UWaterloo,
@@ -52,10 +56,9 @@ export default function About() {
                 </p>
                 <p class="text-light">
                   Outside of career pursuits, I love traveling, memes, and art.
-                  I've featured some of my visual design work here.
                 </p>
               </div>
-              <div class="col-md-3"></div>
+              <div class="col-md-2"></div>
             </div>
           </div>
         </div>
