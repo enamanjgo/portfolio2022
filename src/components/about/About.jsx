@@ -76,23 +76,26 @@ export default function About() {
             <div id="project1" class="col">
               <div class="card border-0">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                  src="https://i.imgur.com/c2mpnSU.jpg"
                   id="cover1"
                   class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
                   alt="Hollywood Sign on The Hill"
                 />
                 <div id="overlay1" className="overlay1">
                   <div id="text1" className="text1">
-                    How can we make it easier to discover new music and share it
-                    with friends?
+                    <h4 class="overflow-hidden">
+                      Mechanical design and 3D printing projects
+                    </h4>
+
+                    <h7>Tools: Solidworks</h7>
                     <br />
                     <br />
                     <a
                       id="projectname"
                       href=""
-                      class="text-decoration-none fw-light text-light"
+                      class="text-decoration-none fw-light text-dark"
                     >
-                      See Tunely <i class="fa-solid fa-arrow-right"></i>
+                      See more
                     </a>
                   </div>
                 </div>

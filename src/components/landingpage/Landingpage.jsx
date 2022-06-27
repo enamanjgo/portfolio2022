@@ -12,7 +12,9 @@ export default class Landingpage extends Component {
             <div class="p-5  fw-light text-center">
               <br />
               <br />
-              <h3 class=" overflow-hidden fw-light text-light">Hi, I'm </h3>
+              <h3 class="title overflow-hidden fw-light text-light">
+                Hi, I'm{' '}
+              </h3>
               <div className="row">
                 <img
                   class="align-items-center ps-5 "
