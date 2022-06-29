@@ -57,7 +57,7 @@ export default class Landingpage extends Component {
                   alt="Hollywood Sign on The Hill"
                 />
                 <div id="overlay1" className="overlay1">
-                  <div id="text1" className="text1">
+                  <div id="text1" className="text1" class="">
                     How can we make it easier to discover new music and share it
                     with friends?
                     <br />
@@ -65,10 +65,10 @@ export default class Landingpage extends Component {
                     <a
                       id="projectname"
                       href="/tunely"
-                      class="text-decoration-none fw-light text-dark"
+                      class="text-decoration-none fst-italic fw-light text-dark"
                     >
-                      See Tunely{' '}
-                      <i class="fa-solid fa-arrow-right text-dark"></i>
+                      See Tunely, a mobile app case study{' '}
+                      <i class=" text-dark text-justify fa-solid fa-up-right-from-square"></i>
                     </a>
                   </div>
                 </div>
@@ -85,11 +85,18 @@ export default class Landingpage extends Component {
 
                 <div id="overlay1" className="overlay1">
                   <div id="text1" className="text1">
-                    How can we make it easier to discover new music and share it
-                    with friends?
+                    How can we communicate engineering class statistics in an
+                    interesting and meaningful way?
                     <br />
                     <br />
-                    <a href="">See Tunely</a>
+                    <a
+                      id="projectname"
+                      href="/tunely"
+                      class="text-decoration-none fw-light text-dark fst-italic"
+                    >
+                      See SYDE Class Profile, a website case study{' '}
+                      <i class=" text-dark text-justify fa-solid fa-up-right-from-square"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -100,44 +107,49 @@ export default class Landingpage extends Component {
             <div id="project1" class="col">
               <div class="card border-0">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                  src="https://i.imgur.com/YO1N7WU.png"
                   id="cover1"
                   class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
                   alt="Hollywood Sign on The Hill"
                 />
                 <div id="overlay1" className="overlay1">
-                  <div id="text1" className="text1">
-                    How can we make it easier to discover new music and share it
-                    with friends?
+                  <div id="text1" className="text1" class="">
+                    How can we improve the gender disparity in weightlifting?
                     <br />
                     <br />
                     <a
                       id="projectname"
-                      href=""
-                      class="text-decoration-none fw-light text-light"
+                      href="/tunely"
+                      class="text-decoration-none fst-italic fw-light text-dark"
                     >
-                      See Tunely <i class="fa-solid fa-arrow-right"></i>
+                      See Lifter, a mobile app case study{' '}
+                      <i class=" text-dark text-justify fa-solid fa-up-right-from-square"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div id="project1" class="col">
               <div class="card border-0">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
-                  class="card-img-top"
-                  id="image1"
-                  alt="Palm Springs Road"
+                  src="https://i.imgur.com/YO1N7WU.png"
+                  id="cover1"
+                  class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
+                  alt="Hollywood Sign on The Hill"
                 />
-
                 <div id="overlay1" className="overlay1">
-                  <div id="text1" className="text1">
-                    How can we make it easier to discover new music and share it
-                    with friends?
+                  <div id="text1" className="text1" class="">
+                    How can we improve the gender disparity in weightlifting?
                     <br />
                     <br />
-                    <a href="">See Tunely</a>
+                    <a
+                      id="projectname"
+                      href="/tunely"
+                      class="text-decoration-none fst-italic fw-light text-dark"
+                    >
+                      See Lifter, a mobile app case study{' '}
+                      <i class=" text-dark text-justify fa-solid fa-up-right-from-square"></i>
+                    </a>
                   </div>
                 </div>
               </div>
