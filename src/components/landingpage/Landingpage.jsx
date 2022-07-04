@@ -12,6 +12,7 @@ export default class Landingpage extends Component {
             <div class="p-5  fw-light text-center">
               <br />
               <br />
+              <br />
               <h3 class="title overflow-hidden fw-light text-light">
                 Hi, I'm{' '}
               </h3>

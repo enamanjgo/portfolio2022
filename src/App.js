@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <NavbarComp />
-      <Footer />
+
       <ScrollAnimation animateIn="fadeIn">
         <Routes>
           <Route path="/" element={<Landingpage />} />
