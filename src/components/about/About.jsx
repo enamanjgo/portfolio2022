@@ -102,6 +102,7 @@ export default function About() {
               </div>
             </div>
             <div class="col">
+              {/*
               <div class="card border-0">
                 <img
                   src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
@@ -120,6 +121,8 @@ export default function About() {
                   </div>
                 </div>
               </div>
+
+  */}
             </div>
           </div>
         </section>

@@ -6,6 +6,7 @@ import Art from './components/art/Art';
 import Home from './components/home/Home';
 import Footer from './components/Footer/Footer';
 import Tunely from './components/Tunely/Tunely';
+import Graphics from './components/graphics/Graphics';
 import './app.scss';
 import Landingpage from './components/landingpage/Landingpage';
 import { Routes, Route } from 'react-router-dom';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/art" element={<Art />} />
           <Route path="/tunely" element={<Tunely />} />
+          <Route path="/Graphics" element={<Graphics />} />
         </Routes>
       </ScrollAnimation>
 

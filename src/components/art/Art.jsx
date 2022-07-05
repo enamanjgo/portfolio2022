@@ -28,10 +28,6 @@ export default function Art() {
             <img src="https://i.imgur.com/Q3wTBWz.png" alt="" />
           </div>
 
-          <div class="col-12 col-md-6 col-lg-6 px-5">
-            <img src="https://i.imgur.com/RUKXdoo.png" alt="" />
-          </div>
-
           <div class="col-12 col-md-6 col-lg-6">
             <img src="https://i.imgur.com/56G6soI.jpg" alt="" />
           </div>

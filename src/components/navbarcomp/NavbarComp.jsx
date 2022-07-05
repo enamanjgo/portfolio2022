@@ -39,7 +39,7 @@ export default class NavbarComp extends Component {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/Graphics">
                   Graphics
                 </a>
               </li>

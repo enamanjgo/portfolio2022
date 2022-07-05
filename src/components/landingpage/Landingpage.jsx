@@ -78,9 +78,9 @@ export default class Landingpage extends Component {
             <div class="col">
               <div class="card border-0">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+                  src="https://i.imgur.com/crviJ6N.png"
                   class="card-img-top"
-                  id="image1"
+                  id="cover1"
                   alt="Palm Springs Road"
                 />
 
@@ -103,7 +103,7 @@ export default class Landingpage extends Component {
               </div>
             </div>
           </div>
-
+          {/*comment here
           <div class="row py-4 row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
             <div id="project1" class="col">
               <div class="card border-0">
@@ -156,6 +156,7 @@ export default class Landingpage extends Component {
               </div>
             </div>
           </div>
+          */}
         </section>
       </div>
     );
