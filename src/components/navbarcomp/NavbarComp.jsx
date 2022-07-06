@@ -51,7 +51,10 @@ export default class NavbarComp extends Component {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/Art">
+                <a
+                  class="nav-link"
+                  href="https://drive.google.com/file/d/1zwXtsTxeCFrNF8BhIBAQV5u5J9IeoPY0/view?usp=sharing"
+                >
                   Resume
                 </a>
               </li>
