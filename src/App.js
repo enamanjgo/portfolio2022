@@ -41,8 +41,9 @@ function App() {
             <a href="https://github.com/enamanjgo" target="_blank">
               <i class="fa-brands fa-github px-1"></i>
             </a>
-            <i class="fa-solid fa-envelope px-1"></i>
-            <i class="fa-brands fa-instagram px-1"></i>
+            <a href="mailto:emanjgo@uwaterloo.ca">
+              <i class="fa-solid fa-envelope px-1"></i>
+            </a>
           </span>
         </div>
         <div className="row">

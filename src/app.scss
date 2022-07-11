@@ -8,7 +8,7 @@
   color: white;
   font-weight: light;
 
-  background: #1a1a1a;
+  background: #212529;
 
   @keyframes blink {
     50% {
@@ -19,9 +19,9 @@
     }
   }
 
-  // #title {
-  //   font-family: 'Tiro Bangla', serif;
-  // }
+  #title {
+    font-family: 'Manrope';
+  }
 
   #overlay1 {
     position: absolute;

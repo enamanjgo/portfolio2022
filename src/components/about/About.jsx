@@ -16,8 +16,8 @@ export default function About() {
         <div class="row d-flex flex-wrap align-items-center justify-content-center ">
           <div class="col-12 col-md-3 col-lg-3 px-3">
             <img
-              class="rounded-circle float-left mx-auto shadow-lg"
-              src="https://i.imgur.com/3fQ8PlM.jpg "
+              class="rounded-circle float-left mx-auto shadow-lg border border-light"
+              src="https://i.imgur.com/MFyPldR.png "
               alt=""
             />
           </div>

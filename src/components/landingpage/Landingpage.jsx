@@ -13,9 +13,9 @@ export default class Landingpage extends Component {
               <br />
               <br />
               <br />
-              <h3 class="title overflow-hidden fw-light text-light">
-                Hi, I'm{' '}
-              </h3>
+              <h4 id="title" class="title overflow-hidden fw-light text-light">
+                Nice to meet you! I'm{' '}
+              </h4>
               <div className="row">
                 <img
                   class="align-items-center ps-5 "
@@ -27,11 +27,11 @@ export default class Landingpage extends Component {
               <h5 id="title" class=" overflow-hidden fw-light text-light">
                 Product Manager & Designer
               </h5>
-              <h5 class="  fw-light text-light">
+              <h5 id="title" class="  fw-light text-light">
                 UWaterloo Systems Design Engineering '25
               </h5>
               <br />
-              <h5 class=" overflow-hidden fw-light text-light pb-2">
+              <h5 id="title" class=" overflow-hidden fw-light text-light pb-2">
                 See my work{'    '}
               </h5>
               <a href="#projects">
