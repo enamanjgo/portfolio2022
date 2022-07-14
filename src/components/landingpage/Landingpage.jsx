@@ -68,7 +68,7 @@ export default class Landingpage extends Component {
                     <br />
                     <a
                       id="projectname"
-                      href="/tunely"
+                      href="https://alive-clavicle-a9c.notion.site/Tunely-Find-and-share-new-music-picks-c791fdc25a264a75a3c800e55d13cd56"
                       class="text-decoration-none fst-italic fw-light text-dark"
                     >
                       See Tunely, a mobile app case study{' '}
