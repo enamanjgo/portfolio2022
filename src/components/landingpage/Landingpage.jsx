@@ -13,6 +13,7 @@ export default class Landingpage extends Component {
               <br />
               <br />
               <br />
+              <h4>Website in progress!</h4>
               <h4 id="title" class="title overflow-hidden fw-light text-light">
                 Nice to meet you! I'm{' '}
               </h4>
