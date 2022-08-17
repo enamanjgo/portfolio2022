@@ -13,9 +13,7 @@ export default class Landingpage extends Component {
               <br />
               <br />
               <br />
-              <h4 class="title overflow-hidden  text-light">
-                Website in progress!
-              </h4>
+
               <h4 id="title" class="title overflow-hidden fw-light text-light">
                 Nice to meet you! I'm{' '}
               </h4>
@@ -68,7 +66,7 @@ export default class Landingpage extends Component {
                     <br />
                     <a
                       id="projectname"
-                      href="https://alive-clavicle-a9c.notion.site/Tunely-Find-and-share-new-music-picks-c791fdc25a264a75a3c800e55d13cd56"
+                      href="/Tunely"
                       class="text-decoration-none fst-italic fw-light text-dark"
                     >
                       See Tunely, a mobile app case study{' '}
@@ -89,8 +87,8 @@ export default class Landingpage extends Component {
 
                 <div id="overlay1" className="overlay1">
                   <div id="text1" className="text1">
-                    How can we communicate engineering class statistics in an
-                    interesting and meaningful way?
+                    How can we communicate engineering class statistics in a
+                    meaningful way?
                     <br />
                     <br />
                     <a
