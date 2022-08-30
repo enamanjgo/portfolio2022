@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 export default class Landingpage extends Component {
   render() {
     return (
-      <div class="container overflow-hidden">
+      <div className="Landingpage" class="container overflow-hidden">
         <section id="intro">
           <div class="row">
             <div class="p-5  fw-light text-center">
@@ -53,15 +53,42 @@ export default class Landingpage extends Component {
             <div id="project1" class="col">
               <div class="card border-0">
                 <img
-                  src="https://i.imgur.com/YO1N7WU.png"
+                  src="https://i.imgur.com/YDVZf48.png"
                   id="cover1"
                   class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
-                  alt="Hollywood Sign on The Hill"
+                  alt=""
                 />
                 <div id="overlay1" className="overlay1">
                   <div id="text1" className="text1" class="">
-                    How can we make it easier to discover new music and share it
-                    with friends?
+                    How might we build more sustainable online shopping habits?
+                    <br />
+                    <br />
+                    <a
+                      id="projectname"
+                      href="https://devpost.com/software/pocketcloset"
+                      target="_blank"
+                      class="text-decoration-none fst-italic fw-light text-dark"
+                    >
+                      See PocketCloset, a Chrome <br /> extension (3rd place
+                      winner at Technova Hackathon){' '}
+                      <i class=" text-dark text-justify fa-solid fa-up-right-from-square"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="project1" class="col">
+              <div class="card border-0">
+                <img
+                  src="https://i.imgur.com/YO1N7WU.png"
+                  id="cover1"
+                  class="card-img-top bg-image hover-overlay ripple shadow-1-strong rounded"
+                  alt=""
+                />
+                <div id="overlay1" className="overlay1">
+                  <div id="text1" className="text1" class="">
+                    How might we make it easier to discover new music and share
+                    it with friends?
                     <br />
                     <br />
                     <a
@@ -82,7 +109,7 @@ export default class Landingpage extends Component {
                   src="https://i.imgur.com/crviJ6N.png"
                   class="card-img-top"
                   id="cover1"
-                  alt="Palm Springs Road"
+                  alt=""
                 />
 
                 <div id="overlay1" className="overlay1">

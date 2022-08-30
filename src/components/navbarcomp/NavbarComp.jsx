@@ -44,16 +44,7 @@ export default class NavbarComp extends Component {
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a
-                  id="title"
-                  class="nav-link"
-                  href="https://drive.google.com/file/d/1zwXtsTxeCFrNF8BhIBAQV5u5J9IeoPY0/view?usp=sharing"
-                  target="_blank"
-                >
-                  Resume
-                </a>
-              </li>
+              <li class="nav-item"></li>
             </ul>
           </div>
         </div>

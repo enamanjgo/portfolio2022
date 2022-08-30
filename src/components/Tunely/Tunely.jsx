@@ -110,7 +110,7 @@ export default function Tunely() {
 
             <p class="fw-light">
               Based on the pain points we discovered, we listed requirements to
-              tackle pain points within the new experience:
+              tackle them within the new experience:
               <br />
               <br />
               <ul>
@@ -137,10 +137,78 @@ export default function Tunely() {
           <div class="text-light overflow-hidden" className="row pb-4 ">
             <h4 class="overflow-hidden">Empathizing with the user</h4>
             <p class="fw-light">
-              To better understand our userbase, we investigated Spotify. As
-              everyday users, we identified a typical flow for discovering new
-              music and sharing it:
+              As a team, we then developed personas to better understand
+              particular use cases of our product:
             </p>
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Primary user</h4>
+
+            <img src="https://i.imgur.com/fCeKsQ2.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Secondary user</h4>
+
+            <img src="https://i.imgur.com/Wt04mIh.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <p class="fw-light">
+              Our exploration confirmed that we had addressed the primary user's
+              needs in our set of requirements, but we had neglected to include
+              features to implement a popular music feed as included in the
+              secondary persona. Revising the list of requirements:
+              <br />
+              <br />
+              <ul>
+                <li>
+                  {' '}
+                  • Seamless chat functionality to share songs with friends
+                </li>
+                <li>
+                  {' '}
+                  • A data-entry stage for accurate, algorithm-based
+                  recommendations
+                </li>
+                <li>
+                  • Algorithm-curated song snippets to show the user the most
+                  interesting part of the song
+                </li>
+                <li>
+                  • A card-swiping interface to speed up the browsing process
+                </li>
+
+                <li class="fw-bold">
+                  • A trending tab to swipe through popular songs
+                </li>
+              </ul>
+            </p>
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Information architecture</h4>
+            <p class="fw-light">
+              With an understanding of major features to be included in the
+              application, we mapped out the information architecture of the
+              application to dictate wireframe ideation.
+            </p>
+
+            <img src="https://i.imgur.com/r4RkVZG.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Wireframes</h4>
+            <p class="fw-light">
+              With our priority being time efficiency in providing users with
+              song recommendations, we completed low fidelity wireframes for an
+              initial representation of app flow.
+            </p>
+            <img src="https://i.imgur.com/DLnuRTa.png" alt="" />
+            <img src="https://i.imgur.com/L6ogALl.png" alt="" />
+            <img src="https://i.imgur.com/CdbHuZR.png" alt="" />
+            <img src="https://i.imgur.com/qStOVkn.png" alt="" />
           </div>
         </div>
       </div>
