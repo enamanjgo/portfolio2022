@@ -103,33 +103,7 @@ export default class Landingpage extends Component {
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card border-0">
-                <img
-                  src="https://i.imgur.com/crviJ6N.png"
-                  class="card-img-top"
-                  id="cover1"
-                  alt=""
-                />
-
-                <div id="overlay1" className="overlay1">
-                  <div id="text1" className="text1">
-                    How can we communicate engineering class statistics in a
-                    meaningful way?
-                    <br />
-                    <br />
-                    <a
-                      id="projectname"
-                      href="/tunely"
-                      class="text-decoration-none fw-light text-dark fst-italic"
-                    >
-                      See SYDE Class Profile, a website case study{' '}
-                      <i class=" text-dark text-justify fa-solid fa-up-right-from-square"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
           {/*comment here
           <div class="row py-4 row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">

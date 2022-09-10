@@ -2,17 +2,22 @@ import React from 'react';
 
 export default function Tunely() {
   return (
-    <div>
+    <div className='Tunely'>
       <br />
-      <br />
-      <br />
+    <br />
+
       <div className="row"></div>
 
       <div className="container" class="bg-black">
-        <div class="row d-flex flex-wrap align-items-center justify-content-center bg-black">
-          <div class="col-12 col-md-3 col-lg-3 ">
-            <img src="https://i.imgur.com/u6pRYSS.gif" alt="" />
+        <div class="row d-flex  align-items-center justify-content-center bg-black my-5">
+          <div className="col-2"><h1 class="text-light fw-light overflow-hidden">Tunely</h1>
+          <h4 class="fst-italic text-light fw-light overflow-hidden">
+            Find and share new music picks
+          </h4></div>
+          <div class="col-6">
+            <img src="https://i.imgur.com/25TmIcR.gif" alt="" />
           </div>
+          <div className="col-1"></div>
         </div>
       </div>
 
@@ -20,10 +25,7 @@ export default function Tunely() {
         <br />
         <br />
         <div class="text-light" className="row">
-          <h1 class="text-light fw-light overflow-hidden">Tunely</h1>
-          <h4 class="fst-italic text-light fw-light overflow-hidden">
-            Find and share new music picks
-          </h4>
+          
           <br />
           <br />
           <br />
@@ -195,7 +197,7 @@ export default function Tunely() {
               application to dictate wireframe ideation.
             </p>
 
-            <img src="https://i.imgur.com/r4RkVZG.png" alt="" />
+            <img src="https://i.imgur.com/vyRqekt.png" alt="" />
           </div>
 
           <div class="text-light overflow-hidden" className="row pb-4 ">
@@ -209,6 +211,110 @@ export default function Tunely() {
             <img src="https://i.imgur.com/L6ogALl.png" alt="" />
             <img src="https://i.imgur.com/CdbHuZR.png" alt="" />
             <img src="https://i.imgur.com/qStOVkn.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Revising app features</h4>
+            <p class="fw-light">
+            Completion of the lo-fi wireframes led to discovering key missing features:
+              <br />
+              <br />
+              <ul>
+                <li>
+                  {' '}
+                  • A centralized settings tab
+                </li>
+                <li>
+                  {' '}
+                  • Onboarding pagination to gather user information
+                </li>
+                <li>
+                  • Options to allow app access to contacts and configure notifications
+                </li>
+                <li>
+                  • A card-swiping interface to speed up the browsing process
+                </li>
+
+                <li>
+                  • Functionality to filter feed by particular criteria depending on the user’s mood
+                </li>
+              </ul>
+            </p>
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">High-fidelity mocks</h4>
+            <p class="fw-light">
+              With these new features in mind, we were able to design the first iteration of the high-fidelity mocks.  
+            </p>
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">User onboarding</h4>
+            <p class="fw-light">
+              To ensure high-quality music recommendations, we ensured that a key feature of Tunely was a detailed data-entry stage 
+              allowing the user to input genres/artists that they like.
+            </p>
+
+            <img src="https://i.imgur.com/nKBOnB3.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Swiping functionality</h4>
+            <p class="fw-light">
+             To expedite the process of finding songs, swiping functionality reduces the amount of time the user spends clicking on songs and listening to them. 
+             Also, feeding the user with 15-second snippets of songs prevents them from skipping through them on their own.
+            </p>
+
+            <img src="https://i.imgur.com/OpXjrTk.png" alt="" />
+          </div>
+
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Chat feature</h4>
+            <p class="fw-light">
+             Integrated chat functionality allows users to send songs to each other directly through the app, rather than  using external messaging platforms.
+            </p>
+
+            <img src="https://i.imgur.com/RehXZPx.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Saving to playlists and filtering options</h4>
+            <p class="fw-light">
+             Upon swiping right on a song, users are then prompted to add it to the playlists they see fit. Additionally, the filter button allows them to alter their music recommenadtion feed on different aspects of a song, such as tempo and release date.
+            </p>
+
+            <img src="https://i.imgur.com/BvAVO6d.png" alt="" />
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Final Prototype</h4>
+            <iframe width="1120" height="630" src="https://www.youtube.com/embed/8hDWsXT3d_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        
+         
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Key Learnings</h4>
+            <p class="fw-light">
+             In the case of this hackathon, the developers on our team were interested in implementing a swiping interface inspired by Tinder. 
+             However, in a more general case, it would be more important to approach solving the user problem (inefficiency in finding and 
+             sharing music) in an unbiased way. For example, it is possible that an entirely new application would not be necessary to address the problem, 
+             and it could be useful to look into solutions that integrate into existing music platforms. 
+            </p>
+
+           
+          </div>
+
+          <div class="text-light overflow-hidden" className="row pb-4 ">
+            <h4 class="overflow-hidden">Next Steps</h4>
+            <p class="fw-light">
+             1. Usability Testing - Running user testing sessions to help reveal pain points in the existing prototype and iterate further <br /> 
+             2. Taking a more research-based approach to understand the user base and market could lead to better prioritization of features
+
+            </p>
+
+           
           </div>
         </div>
       </div>
